@@ -1,0 +1,105 @@
+
+#check:checked ~ div {
+    display: block;
+  }
+  #click:checked{
+    background-color: #374151;
+  }
+  #click:checked ~ ul {
+    display: block;
+  }
+
+label:hover .dropdown{
+    display: block;
+    height: 11rem;
+}
+
+#click:checked ~ div {
+    display: block;
+  }
+
+
+.bg-blue-500{
+    animation-name: animate; 
+    animation-duration: 5s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 5rem;}
+  }
+.row2{
+    animation-name: animate; 
+    animation-duration: 3s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 4rem;}
+  }
+.row3{
+    animation-name: animate; 
+    animation-duration: 0.3s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 1rem;}
+  }
+.row4{
+    animation-name: animate; 
+    animation-duration: 0.4s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 2.5rem;}
+  }
+.row5{
+    animation-name: animate; 
+    animation-duration: 0.4s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 4.5rem;}
+  }
+.row6{
+    animation-name: animate; 
+    animation-duration: 0.5s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 3.8rem;}
+  }
+.row7{
+    animation-name: animate; 
+    animation-duration: 0.4s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 1.5rem;}
+  }
+.row8{
+    animation-name: animate; 
+    animation-duration: 1s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 5rem;}
+  }
+.row9{
+    animation-name: animate; 
+    animation-duration: 0.8s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 4rem;}
+  }
+.row10{
+    animation-name: animate; 
+    animation-duration: 0.8s;
+}   
+@keyframes animate {
+    from {width: 0px;}
+    to {width: 4rem;}
+  }
+  table tr:nth-child(odd){background-color: #f3f6f6;}
+  table thead tr{background-color: white;}
+
+  table tr:hover {background-color: #F3F6F6;}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="icon" href="./images/favicon-32x32.png">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="./style.css">
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    </head>
+<body class="bg-[#F9FAFB]">
+    <div class="relative w-screen h-screen" >
+        <div class="container bg-white w-2/5 rounded-md shadow-xl h-auto absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div class="flex items-center gap-2  px-8 py-3">
+                <span class="text-[1rem]">
+                    <i class="fi fi-sr-lock"></i>
+                </span>
+                <span class="font-[ui-sans-serif - 700] text-[18px] font-bold">Login</span>
+            </div>
+            <hr>
+            <div class="flex flex-col gap-8 my-4 px-8 py-3">
+                <div >
+                    <span class="font-[ui-sans-serif - 700] text-[16px] font-bold block">E-mail</span>
+                    <div class="mt-2">
+                        <span class="absolute py-3 text-sm pl-3"><i class="fi fi-sr-user"></i></span>
+                        <input type="email" placeholder="user123@gmail.com" class="w-full py-2 pl-9 rounded-md focus:outline-[#F3F4F6] border border-[#9CA3AF] ">
+                        <p class="text-[#696969] text-[12px]" >Required. Your email</p>
+                    </div>
+                </div>
+                <div >
+                    <span class="font-[ui-sans-serif - 700] text-[16px] font-bold block">Password</span>
+                    <div class="mt-2">
+                        <span class="absolute py-3 text-sm pl-3"><i class="fi fi-sr-medical-star"></i></span>
+                        <input type="password" placeholder="Password" class="w-full py-2 pl-9 rounded-md focus:outline-[#F3F4F6] border border-[#9CA3AF] ">
+                        <p class="text-[#696969] text-[12px]">Please enter your password</p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-2">
+                    <input type="checkbox" id="check" class="accent-blue-500 w-5 h-5">
+                    <label for="" class="text-lg">Remember</label>
+                </div>
+
+            </div>
+            <hr>
+            <div class="px-8 flex items-center gap-4 my-4 py-3">
+                <a href="./index.html">
+                <button class="bg-[#3B82F6] py-2 hover:bg-[#2563EB] transition-all
+                px-5 text-white rounded-[5px]">Login</button></a>
+                <a href="./profile.html"><button class=" py-2 border
+                px-5 text-black rounded-[5px] hover:border-black">Back</button></a>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
