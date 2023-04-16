@@ -167,10 +167,11 @@
     </div>
 
     <div class="flex flex-col w-full bg-[#F9FAFB] h-auto ">
-        <div class="container bg-white h-[3.8rem] w-screen box-border border border-[#F3F4F6] flex  flex-row  items-center lg:gap-[22rem] 
-            fixed top-0   justify-between lg:justify-normal">
+        <div class="lg:container bg-white h-[3.8rem]  w-full lg:w-[88%] xl:w-full box-border border border-[#1243a6] justify-between
+            flex  flex-row  items-center  lg:px-8 
+            fixed top-0 ">
 
-            <div class="flex px-4">
+            <div class="flex px-4 border border-red-800">
                 <div>
                     <div class="control"><input placeholder="Search everywhere..." class="input
                         focus:outline-none bg-none border-none"></div>
@@ -188,11 +189,11 @@
             </svg>
             </label>
             <!-- -------------------------------------- -->
-            <div class="items-center lg:gap-4 absolute flex-col top-[3.4rem]  bg-white max-md:border-b-[3px] 
-                border-[#E7E7E7] w-full   lg:sticky lg:flex lg:flex-row hidden"> <!--hidden lg:sticky lg:flex lg:flex-row-->
+            <div class="  absolute flex-col top-[3.4rem]  border border-red-900 max-md:border-b-[3px] lg:max-w-lg lg:box-border lg:overflow-hidden
+                 w-full   lg:sticky lg:flex lg:flex-row  hidden bg-white"> <!--hidden lg:sticky lg:flex lg:flex-row-->
                 <div class="lg:flex items-center block">
                     <label for="check  ">
-                        <a href="" class="flex items-center gap-2 lg:border-r border-solid border-[#F3F4F6] lg:py-4 lg:pr-7 lg:hover:text-[#3B82F6]
+                        <a href="" class="flex items-center gap-2 lg:border-r border-solid border-[#F3F4F6] lg:py-4 lg:pr-5 lg:hover:text-[#3B82F6]
                                 lg:transition-all max-md:bg-[#F3F4F6]  w-full py-2">
                             <span class="pl-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
@@ -253,7 +254,7 @@
                 </div>
                 <div class="lg:flex items-center block">
                     <label for="check">
-                        <a href="" class="flex items-center gap-3 lg:border-r border-solid border-[#F3F4F6] lg:py-4 lg:pr-7 lg:hover:text-[#3B82F6]
+                        <a href="" class="flex items-center gap-3 lg:border-r border-solid border-[#F3F4F6] lg:py-4 lg:pr-5 lg:hover:text-[#3B82F6]
                         lg:transition-all max-md:bg-[#F3F4F6]  w-full py-2">
                                 <span class="pl-2">
                                     <img src="https://avatars.dicebear.com/v2/initials/john-doe.svg" alt="" class="w-6 h-6 rounded-full">
@@ -309,7 +310,7 @@
                     </label>
                 </div>
 
-                <div class="lg:flex items-center block"><a href="" class="flex items-center gap-3 lg:border-r border-solid border-[#F3F4F6] lg:py-4 py-2 pr-7 
+                <div class="lg:flex items-center block"><a href="" class="flex items-center lg:border-r border-solid border-[#F3F4F6] lg:py-4 py-2 pr-5 
                     ">
                     <span class="pl-3">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
@@ -319,7 +320,7 @@
                     <span class="lg:hidden">About</span>
                 </a></div>
 
-                <div class="lg:flex items-center block"><a href="" class="flex items-center gap-3.5 lg:border-r border-solid border-[#F3F4F6] lg:py-4 py-2 pr-7 
+                <div class="lg:flex items-center block"><a href="" class="flex items-center  lg:border-r border-solid border-[#F3F4F6] lg:py-4 py-2 pr-5 
                     ">
                         <span class="text-xl pl-3">
                             <i class='bx bxl-github'></i>
@@ -328,7 +329,7 @@
                     </a>
                 </div>
                 <div class="lg:flex items-center block">
-                    <a href="" class="flex items-center gap-3 pb-2 lg:pb-0">
+                    <a href="" class="flex items-center  pb-2 lg:pb-0">
                         <span class="pl-3" title="Log out">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
@@ -339,9 +340,11 @@
                 </div>
 
             </div>
+            <!-- -------------------------------------------- -->
+
         </div>
-        <div class="container mt-20 mx-auto px-4 flex items-center justify-between flex-col lg:flex-row gap-4">
-            <div class="text-2xl font-ui-sans-serif - 400">
+        <div class="  mt-20  flex items-center justify-between flex-col lg:flex-row gap-4 px-4">
+            <div class="text-2xl font-ui-sans-serif - 400 ">
                 <p>Admin / <b class="font-ui-sans-serif - 900 text-2xl">Dashboard</b></p>
             </div>
             <div class="flex items-center gap-2 justify-center
@@ -351,7 +354,7 @@
             </div>
 
         </div>
-        <div class="container bg-white w-full h-auto py-2 border
+        <div class=" bg-white w-full h-auto py-2 border
         border-[#F3F4F6] my-8 flex items-center justify-between flex-col lg:flex-row gap-4 mx-auto px-4">
             <span class="font-ui-sans-serif - 600 text-[30px] font-[600] text-black ">Dashboard</span>
             <div class="text-center
@@ -359,7 +362,7 @@
             <span class="font-ui-sans-serif - 400 ">Button</span>
             </div>
         </div>
-        <div class="container  w-full h-auto  my-4 flex items-center justify-between flex-col lg:flex-row gap-4 mx-auto px-4">
+    <div class=" w-full h-auto  my-4 flex items-center justify-between flex-col lg:flex-row gap-4 mx-auto px-8">
         <div class="bg-white  border border-[#F3F4F6] w-full py-6 flex flex-row px-8 justify-between items-center">
                 <div class="flex flex-col">
                     <span class="font-ui-sans-serif - 400 
@@ -398,7 +401,7 @@
 
     </div>
         <!-- reaposive -->
-        <div class="container w-full h-auto my-4 mx-auto px-4">
+        <div class=" w-full h-auto my-4 mx-auto px-8">
             <div class="bg-[#3B82F6] w-full rounded-md py-5 flex flex-col gap-3  lg:flex-row px-4 justify-between items-center">
                 <div class="flex flex-row items-center gap-2">
                     <span class="text-white">
@@ -414,7 +417,7 @@
                 </div>
         </div>
         </div>  
-        <div class="container w-full h-auto my-4 mx-auto px-4 ">
+        <div class="w-full h-auto my-4 mx-auto px-8 max-sm:hidden">
             <div class="bg-white border w-full h-auto py-2 px-4
                 flex items-center justify-between -mb-1">
                 <div class="flex items-center gap-2">
@@ -810,8 +813,8 @@
         </div>
 
 
-        <div class="container mt-4 w-full h-auto">
-            <div class="bg-white w-full h-auto py-2 px-4
+        <div class=" mt-4 w-full h-auto ">
+            <div class="bg-white w-full h-auto py-2 px-8
             flex flex-col lg:flex-row items-center justify-between gap-4 -mt-1">
             <div class="flex items-center gap-4">
                 <span>© 2022, JustBoil.me</span>
