@@ -37,7 +37,7 @@
 
 
     <!--  sidebar -->
-    <div class="sidebar w-[250px] h-screen bg-Main_bg_dashboard 
+    <div id="demo" class="sidebar w-[250px] h-screen bg-Main_bg_dashboard 
      sticky left-0 top-0 flex-col gap-2 transition-all  hidden lg:flex">
     <header class="w-full h-14  p-4 text-fontColor_dashboard 
     bg-header_bg_dashboard relative top-0 left-0  text-white
@@ -168,15 +168,30 @@
     </div>
 
     <div class="flex flex-col w-full bg-[#F9FAFB] h-auto ">
-        <div class=" bg-white h-[3.8rem] w-full box-border border border-[#F3F4F6] flex  flex-row  items-center lg:gap-[22rem] 
-            fixed top-0   justify-between lg:justify-normal">
+        <div class="bg-white h-[3.8rem] w-full box-border
+            border border-[#F3F4F6] flex  flex-row  items-center
+            justify-between
+            fixed top-0    ">
 
-            <div class="flex px-4">
+            <div class="flex px-4 w-auto flex-row items-center gap-5">
+                <div>
+                    <button onmouseover="mouseover()" onmouseout="mouseout()" class="lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                          </svg>
+                          
+                    </button> 
+                </div>
                 <div>
                     <div class="control"><input placeholder="Search everywhere..." class="input
                         focus:outline-none bg-none border-none"></div>
                 </div>
             </div>
+
+            <!-- javascript -->
+            <script src="./main.js"></script>
+
+            <!-- right button -->
             <!-- ---------------------------------- -->
             <input type="checkbox" id="check" hidden />
             <label
@@ -189,8 +204,9 @@
             </svg>
             </label>
             <!-- -------------------------------------- -->
-            <div class="items-center lg:gap-4 absolute flex-col top-[3.4rem]  bg-white max-md:border-b-[3px] 
-                border-[#E7E7E7] w-full   lg:sticky lg:flex lg:flex-row hidden"> 
+            <div class="items-center lg:gap-4 absolute flex-col top-[3.4rem] 
+                 bg-white max-md:border-b-[3px] border-[#E7E7E7] w-full lg:w-auto  lg:mr-56
+                  lg:sticky lg:flex lg:flex-row hidden"> 
                 <div class="lg:flex items-center block">
                     <label for="check  ">
                         <a href="" class="flex items-center gap-2 lg:border-r border-solid border-[#F3F4F6] lg:py-4 lg:pr-7 lg:hover:text-[#3B82F6]
